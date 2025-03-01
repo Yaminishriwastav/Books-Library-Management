@@ -1,4 +1,4 @@
-const initialState= {book:[],MyBook:[]};
+const initialState= {books:[],myBooks:[]};
 
 const bookReducer=(state=initialState,action)=>{
     switch(action.type){
